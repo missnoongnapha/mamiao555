@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'TH Sarabun New', sans-serif;
+    background-color: white;
+}
+
+.header {
+    background-color: #fbb040;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+.food-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 60px auto;
+    flex-wrap: wrap;
+}
+
+.food-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-frame {
+    padding: 10px;
+}
+
+.outer-frame {
+    background-color: white;
+}
+
+.red-border {
+    background-color: #8b0000; /* สีแดงเข้มใกล้เคียง KFC */
+}
+
+.inner-frame {
+    background-color: white;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}

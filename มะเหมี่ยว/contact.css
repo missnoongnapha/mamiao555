@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  .header {
+    background-color: #ffcc66;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .contact-list {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .contact-item img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contact-item span {
+    font-size: 20px;
+  }
+  
